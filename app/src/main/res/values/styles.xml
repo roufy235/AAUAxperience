@@ -11,8 +11,8 @@
 
     <style name="noActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorOne</item>
+        <item name="colorPrimaryDark">@color/deepColorOne</item>
         <item name="colorAccent">@color/colorAccent</item>
 
         <item name="android:textViewStyle">@style/vollkorn</item>

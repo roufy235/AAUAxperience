@@ -1,7 +1,8 @@
-package com.covirtue.aauaxperience
+package com.covirtue.aauaxperience.controllers
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.covirtue.aauaxperience.R
 
 class MainActivity : AppCompatActivity() {
 

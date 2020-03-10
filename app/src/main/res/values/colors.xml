@@ -7,7 +7,9 @@
 
     <color name="colorOne">#BCC3DC</color>
     <color name="deepColorOne">#A19FB0 </color>
+    <color name="deepColorOneText">#807f8c </color>
     <color name="white">#EDEFF4</color>
+    <color name="whiteTwo">#FFFFFF</color>
     <color name="green">#0C8C6D</color>
     <color name="brown">#83523A</color>
     <color name="blue">#273AA6</color>

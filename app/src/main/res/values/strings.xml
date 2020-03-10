@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">AAUAxperience</string>
+    <string name="welcome_to_aauaxperience">Welcome To AAUAxperience</string>
+    <string name="demo_text">
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+        graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+        century who is thought to have scrambled parts of Cicero\'s De Finibus Bonorum et
+        Malorum for use in a type specimen book.
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+        graphic or web designs. The passage is attributed to an unknown typesetter in the 15th
+        century who is thought to have scrambled parts of Cicero\'s De Finibus Bonorum et
+        Malorum for use in a type specimen book.
+
+    </string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="already_a_member_sign_in">
+        Already a member, <font color="#A19FB0"><b>Sign In</b></font></string>
+    <string name="title_activity_user_dasboard">UserDasboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">News</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

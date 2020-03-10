@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whiteTwo"
+    android:layout_height="match_parent"
+    tools:context=".controllers.InfoActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:text="@string/welcome_to_aauaxperience"
+        android:textStyle="bold"
+        android:textColor="@color/deepColorOneText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:textSize="25sp"
+        style="@style/vollkornBoldStyled"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/custom_info_two"
+        android:layout_height="200dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_above="@id/btn"
+        android:layout_below="@id/image"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:text="@string/demo_text"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signInBtn"
+            android:layout_width="match_parent"
+            android:text="@string/sign_in"
+            android:textStyle="bold"
+            app:rippleColor="@color/whiteTwo"
+            android:backgroundTint="@color/deepColorOneText"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:layout_height="55dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signUpBtn"
+            android:layout_width="match_parent"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            app:rippleColor="@color/whiteTwo"
+            android:backgroundTint="@color/brown"
+            android:layout_marginStart="5dp"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_height="55dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
