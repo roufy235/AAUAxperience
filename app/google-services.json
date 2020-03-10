@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347178000291",
+    "firebase_url": "https://aauaxperience.firebaseio.com",
+    "project_id": "aauaxperience",
+    "storage_bucket": "aauaxperience.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347178000291:android:e676ca7d4c9a402e7b4416",
+        "android_client_info": {
+          "package_name": "com.covirtue.aauaxperience"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347178000291-a625q4io65hmjlkp427p6hkkllu764ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoovRjeMyWfCGFy9e1Mgijtt8FcuO0GKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347178000291-a625q4io65hmjlkp427p6hkkllu764ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
